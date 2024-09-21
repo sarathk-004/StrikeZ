@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Space Grotesk';
+    background-image: url('./assets/HeroBG.png');
+}
+
+body {
+  cursor: url('/src/assets/cursorbody.png'), auto !important;
+}
+
+
+.logo {
+  height: 140px;
+  width: auto;
+}
+
+@media (max-width: 640px) {
+  .logo {
+    height: 100px;
+  }
+}
